@@ -13,9 +13,9 @@ if method == 1:
     num1 = int(input("Enter first number: "))
     num2 = int(input("Enter second number: "))
 
-    additionSum = num1 + num2
+    sum = num1 + num2
 
-    print(f"The result is {additionSum}")
+    print(f"The result is {sum}")
 
 if method == 2:
 
@@ -24,6 +24,28 @@ if method == 2:
     num1 = int(input("Enter first number: "))
     num2 = int(input("Enter second number: "))
 
-    SubtSum = num1 - num2
+    sum = num1 - num2
 
-    print(f"The result is {SubtSum}")
+    print(f"The result is {sum}")
+
+if method == 3:
+
+    print("MULTIPLICATION(*)")
+
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+
+    sum = num1 * num2
+
+    print(f"The result is {sum}")
+
+if method == 4:
+
+    print("DIVISION(/)")
+
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+
+    sum = num1 / num2
+
+    print(f"The result is {sum}")
