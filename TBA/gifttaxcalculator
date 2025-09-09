@@ -1,0 +1,7 @@
+# Write your solution here
+
+giftamount = int(input("Value of gift: "))
+
+if giftamount >= 5000 and giftamount <= 25000:
+    taxamount = (100 + (giftamount - 5000) * 0.08)
+    print(f"Amount of gift: {taxamount} euros")
