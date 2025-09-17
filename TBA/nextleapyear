@@ -1,0 +1,17 @@
+# Write your solution here
+
+year = int(input("Year: "))
+
+
+if year % 4 == 0:
+    if year % 400 == 0:
+        nextleapyear = year + 4
+        print(f"The next leap year after {year} is {nextleapyear}")
+else:
+    nextleapyear = year + 1
+    print(f"The next leap year after {year} is {nextleapyear}")
+
+
+# if year % 4:
+   # if year % 100:
+       # if year % 400:
