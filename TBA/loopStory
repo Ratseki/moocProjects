@@ -12,3 +12,24 @@ while True:
     elif word == word:
         word = input("Please type in a word: ")
         break
+
+'''
+
+# Write your solution here
+
+words = ""
+count = 0
+
+while True:
+
+    word = input("Please type in a word: ")
+    count += 1
+    words += word + " "
+
+    if word == word:
+        if word == "end":
+            print(words)
+            print(count)
+            break
+
+'''
