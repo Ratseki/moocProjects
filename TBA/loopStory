@@ -1,0 +1,14 @@
+# Write your solution here
+
+words = ""
+attempts = 0
+
+while True:
+    word = input("Please type in a word: ")
+    words += word + " "
+    if word == "end":
+        word = input("Please type in a word: ")
+        print(words)
+    elif word == word:
+        word = input("Please type in a word: ")
+        break
